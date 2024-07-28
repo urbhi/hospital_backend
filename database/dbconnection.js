@@ -5,7 +5,7 @@ dotenv.config();
 
 export const dbConnection = () => {
   mongoose.connect(process.env.MONGO_URI, {
-    dbName: "MERN_STACK_HOSPITAL_MANAGEMENT_DEPLOYED",
+    dbName: "MERN_STACK_HOSPITAL_MANAGEMENT",
   })
   .then(() => {
     console.log("connected to database!");
