@@ -22,7 +22,7 @@ export const postAppointment = catchAsyncerrors(async (req, res, next) => {
     !firstName ||
     !lastName ||
     !email ||
-    phone ||
+    !phone ||
     !dob ||
     !gender ||
     !appointment_date ||
